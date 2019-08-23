@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateConfig name="official-template">
+
+	<widget name="validate-script" widgetFile="widget/validate-script.tpl"/>
+	
+    <layout name="outer" layoutFile="inc/outer.html" rules=".*\/outer\/.*" excludeNames="login.html,setCookie.html"/>
+	
+	<layout name="main" layoutFile="inc/main.html" rules="(?!.*(dialog|tab)).*" excludeNames="login.html,setCookie.html"/>
+	
+		
+	<function name="validateScript" tagHandlerClass="com.juma.tgm.manage.web.decorator.function.ValidateScriptFunctionHandler">
+		<parameter name="formBean" type="java.lang.String" allowNull="false"/>
+		<parameter name="formName" type="java.lang.String"/>
+		<parameter name="errorContainer" type="java.lang.String"/>
+	</function>
+	
+	<function name="getGlobleConfig" tagHandlerClass="com.juma.tgm.manage.web.decorator.function.GetGlobleConfigFunctionHandler">
+		<parameter name="paramKey" type="java.lang.String" allowNull="false"/>
+	</function>
+
+
+	<urlDomainName whetherAddDomainName="true" rules=".*upload/images/.*\.(jpg|gif|png|jpeg|JPG|GIF|PNG|JPEG)">
+        <urlDomainNameRules rules=".*upload/images/.*\.(jpg|gif|png|jpeg|JPG|GIF|PNG|JPEG)">
+            <domainName value="juma-tgm.oss-cn-shenzhen.aliyuncs.com"/>
+        </urlDomainNameRules>
+    </urlDomainName>
+
+</templateConfig>

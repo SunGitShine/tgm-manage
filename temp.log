@@ -1,0 +1,347 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.juma:tgm-manage:war:5.4.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 404, column 11
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 418, column 11
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building tgm manage Webapp 5.4.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-domain/3.8.2-SNAPSHOT/maven-metadata.xml
+989/989 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-domain/3.8.2-SNAPSHOT/maven-metadata.xml (989 B at 6.7 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm/3.8.2-SNAPSHOT/maven-metadata.xml
+595/595 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm/3.8.2-SNAPSHOT/maven-metadata.xml (595 B at 30.6 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-common/3.8.2-SNAPSHOT/maven-metadata.xml
+989/989 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-common/3.8.2-SNAPSHOT/maven-metadata.xml (989 B at 34.5 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-domain/2.5.3-SNAPSHOT/maven-metadata.xml
+994/994 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-domain/2.5.3-SNAPSHOT/maven-metadata.xml (994 B at 36.0 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth/2.5.3-SNAPSHOT/maven-metadata.xml
+598/598 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth/2.5.3-SNAPSHOT/maven-metadata.xml (598 B at 22.5 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-common/2.5.3-SNAPSHOT/maven-metadata.xml
+994/994 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-common/2.5.3-SNAPSHOT/maven-metadata.xml (994 B at 5.8 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/dd/dataInterface-domain/1.0-SNAPSHOT/maven-metadata.xml
+778/778 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/dd/dataInterface-domain/1.0-SNAPSHOT/maven-metadata.xml (778 B at 29.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/dd/dataInterface/1.0-SNAPSHOT/maven-metadata.xml
+599/599 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/dd/dataInterface/1.0-SNAPSHOT/maven-metadata.xml (599 B at 16.7 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-service/5.4.0-SNAPSHOT/maven-metadata.xml
+990/990 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-service/5.4.0-SNAPSHOT/maven-metadata.xml (990 B at 43.9 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm/5.4.0-SNAPSHOT/maven-metadata.xml
+595/595 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm/5.4.0-SNAPSHOT/maven-metadata.xml (595 B at 24.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-domain/5.4.0-SNAPSHOT/maven-metadata.xml
+989/989 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-domain/5.4.0-SNAPSHOT/maven-metadata.xml (989 B at 53.7 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-common/5.4.0-SNAPSHOT/maven-metadata.xml
+989/989 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-common/5.4.0-SNAPSHOT/maven-metadata.xml (989 B at 50.8 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vms-domain/1.1.0-SNAPSHOT/maven-metadata.xml
+993/993 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vms-domain/1.1.0-SNAPSHOT/maven-metadata.xml (993 B at 42.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vms/1.1.0-SNAPSHOT/maven-metadata.xml
+597/597 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vms/1.1.0-SNAPSHOT/maven-metadata.xml (597 B at 32.4 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vms-common/1.1.0-SNAPSHOT/maven-metadata.xml
+993/993 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vms-common/1.1.0-SNAPSHOT/maven-metadata.xml (993 B at 53.9 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-service/2.9.2-SNAPSHOT/maven-metadata.xml
+989/989 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-service/2.9.2-SNAPSHOT/maven-metadata.xml (989 B at 56.8 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm/2.9.2-SNAPSHOT/maven-metadata.xml
+594/594 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm/2.9.2-SNAPSHOT/maven-metadata.xml (594 B at 32.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-domain/2.9.2-SNAPSHOT/maven-metadata.xml
+988/988 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-domain/2.9.2-SNAPSHOT/maven-metadata.xml (988 B at 50.8 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-common/2.9.2-SNAPSHOT/maven-metadata.xml
+988/988 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-common/2.9.2-SNAPSHOT/maven-metadata.xml (988 B at 56.8 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/fms-service/2.1.0-SNAPSHOT/maven-metadata.xml
+994/994 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/fms-service/2.1.0-SNAPSHOT/maven-metadata.xml (994 B at 48.5 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/fms/2.1.0-SNAPSHOT/maven-metadata.xml
+597/597 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/fms/2.1.0-SNAPSHOT/maven-metadata.xml (597 B at 36.4 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/fms-domain/2.1.0-SNAPSHOT/maven-metadata.xml
+993/993 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/fms-domain/2.1.0-SNAPSHOT/maven-metadata.xml (993 B at 51.0 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/fms-common/2.1.0-SNAPSHOT/maven-metadata.xml
+993/993 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/fms-common/2.1.0-SNAPSHOT/maven-metadata.xml (993 B at 53.9 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-domain/2.8.0-SNAPSHOT/maven-metadata.xml
+994/994 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-domain/2.8.0-SNAPSHOT/maven-metadata.xml (994 B at 48.5 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth/2.8.0-SNAPSHOT/maven-metadata.xml
+598/598 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth/2.8.0-SNAPSHOT/maven-metadata.xml (598 B at 34.4 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-common/2.8.0-SNAPSHOT/maven-metadata.xml
+994/994 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-common/2.8.0-SNAPSHOT/maven-metadata.xml (994 B at 42.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/workflow-domain/1.1.0-SNAPSHOT/maven-metadata.xml
+1002/1002 B                 Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/workflow-domain/1.1.0-SNAPSHOT/maven-metadata.xml (1002 B at 21.3 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/workflow/1.1.0-SNAPSHOT/maven-metadata.xml
+604/604 B                 Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/workflow/1.1.0-SNAPSHOT/maven-metadata.xml (604 B at 26.8 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/workflow-common/1.1.0-SNAPSHOT/maven-metadata.xml
+1002/1002 B                 Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/workflow-common/1.1.0-SNAPSHOT/maven-metadata.xml (1002 B at 57.6 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vms-service/1.1.0-SNAPSHOT/maven-metadata.xml
+994/994 B                 Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vms-service/1.1.0-SNAPSHOT/maven-metadata.xml (994 B at 42.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-domain/5.3.0-SNAPSHOT/maven-metadata.xml
+989/989 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-domain/5.3.0-SNAPSHOT/maven-metadata.xml (989 B at 37.1 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm/5.3.0-SNAPSHOT/maven-metadata.xml
+595/595 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm/5.3.0-SNAPSHOT/maven-metadata.xml (595 B at 23.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-common/5.3.0-SNAPSHOT/maven-metadata.xml
+989/989 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tgm-common/5.3.0-SNAPSHOT/maven-metadata.xml (989 B at 50.8 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tsl-domain/2.9.0-SNAPSHOT/maven-metadata.xml
+993/993 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tsl-domain/2.9.0-SNAPSHOT/maven-metadata.xml (993 B at 60.6 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tsl/2.9.0-SNAPSHOT/maven-metadata.xml
+597/597 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tsl/2.9.0-SNAPSHOT/maven-metadata.xml (597 B at 36.4 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tsl-common/2.9.0-SNAPSHOT/maven-metadata.xml
+993/993 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/tsl-common/2.9.0-SNAPSHOT/maven-metadata.xml (993 B at 44.1 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-service/2.5.3-SNAPSHOT/maven-metadata.xml
+995/995 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-service/2.5.3-SNAPSHOT/maven-metadata.xml (995 B at 48.6 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-service/4.0.2-SNAPSHOT/maven-metadata.xml
+994/994 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-service/4.0.2-SNAPSHOT/maven-metadata.xml (994 B at 46.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm/4.0.2-SNAPSHOT/maven-metadata.xml
+597/597 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm/4.0.2-SNAPSHOT/maven-metadata.xml (597 B at 36.4 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-domain/4.0.2-SNAPSHOT/maven-metadata.xml
+993/993 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-domain/4.0.2-SNAPSHOT/maven-metadata.xml (993 B at 57.0 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-common/4.0.2-SNAPSHOT/maven-metadata.xml
+993/993 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-common/4.0.2-SNAPSHOT/maven-metadata.xml (993 B at 60.6 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-domain/2.9.0-SNAPSHOT/maven-metadata.xml
+994/994 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-domain/2.9.0-SNAPSHOT/maven-metadata.xml (994 B at 60.7 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth/2.9.0-SNAPSHOT/maven-metadata.xml
+598/598 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth/2.9.0-SNAPSHOT/maven-metadata.xml (598 B at 32.4 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-domain/4.0.1-SNAPSHOT/maven-metadata.xml
+989/989 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-domain/4.0.1-SNAPSHOT/maven-metadata.xml (989 B at 56.8 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm/4.0.1-SNAPSHOT/maven-metadata.xml
+595/595 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm/4.0.1-SNAPSHOT/maven-metadata.xml (595 B at 34.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-common/4.0.1-SNAPSHOT/maven-metadata.xml
+989/989 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/crm-common/4.0.1-SNAPSHOT/maven-metadata.xml (989 B at 48.3 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/message-common/2.1.1-SNAPSHOT/maven-metadata.xml
+997/997 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/message-common/2.1.1-SNAPSHOT/maven-metadata.xml (997 B at 51.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/message/2.1.1-SNAPSHOT/maven-metadata.xml
+601/601 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/message/2.1.1-SNAPSHOT/maven-metadata.xml (601 B at 34.5 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/workflow-service/1.1.0-SNAPSHOT/maven-metadata.xml
+1003/1003 B                 Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/workflow-service/1.1.0-SNAPSHOT/maven-metadata.xml (1003 B at 46.6 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-service/2.2.5-SNAPSHOT/maven-metadata.xml
+989/989 B                 Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-service/2.2.5-SNAPSHOT/maven-metadata.xml (989 B at 50.8 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm/2.2.5-SNAPSHOT/maven-metadata.xml
+594/594 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm/2.2.5-SNAPSHOT/maven-metadata.xml (594 B at 29.0 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-domain/2.2.5-SNAPSHOT/maven-metadata.xml
+988/988 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-domain/2.2.5-SNAPSHOT/maven-metadata.xml (988 B at 43.9 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-common/2.2.5-SNAPSHOT/maven-metadata.xml
+988/988 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/vm-common/2.2.5-SNAPSHOT/maven-metadata.xml (988 B at 43.9 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-service/2.9.0-SNAPSHOT/maven-metadata.xml
+995/995 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-service/2.9.0-SNAPSHOT/maven-metadata.xml (995 B at 32.4 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-common/2.9.0-SNAPSHOT/maven-metadata.xml
+994/994 B               Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/juma/server/auth-common/2.9.0-SNAPSHOT/maven-metadata.xml (994 B at 57.1 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/ctrip/framework/apollo/apollo-client/1.1.1-SNAPSHOT/maven-metadata.xml
+1007/1007 B                 Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/ctrip/framework/apollo/apollo-client/1.1.1-SNAPSHOT/maven-metadata.xml (1007 B at 49.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/ctrip/framework/apollo/apollo/1.1.1-SNAPSHOT/maven-metadata.xml
+609/609 B                 Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/ctrip/framework/apollo/apollo/1.1.1-SNAPSHOT/maven-metadata.xml (609 B at 37.2 KB/sec)
+Downloading: http://10.101.0.101:8080/nexus/content/groups/public/com/ctrip/framework/apollo/apollo-core/1.1.1-SNAPSHOT/maven-metadata.xml
+1001/1001 B                 Downloaded: http://10.101.0.101:8080/nexus/content/groups/public/com/ctrip/framework/apollo/apollo-core/1.1.1-SNAPSHOT/maven-metadata.xml (1001 B at 51.4 KB/sec)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ tgm-manage ---
+[INFO] com.juma:tgm-manage:war:5.4.0-SNAPSHOT
+[INFO] +- com.juma.server:crm-service:jar:3.0.0:compile
+[INFO] |  \- com.juma.finance:finance-service:jar:1.1.0.1:compile
+[INFO] |     +- com.juma.finance:finance-domain:jar:1.1.0.1:compile
+[INFO] |     \- com.juma.finance:finance-common:jar:1.1.0.1:compile
+[INFO] |        +- org.dom4j:dom4j:jar:2.0.0:compile
+[INFO] |        |  \- jaxen:jaxen:jar:1.1.6:compile
+[INFO] |        \- com.github.kevinsawicki:http-request:jar:6.0:compile
+[INFO] +- com.juma.server:crm-domain:jar:3.8.2-SNAPSHOT:compile
+[INFO] |  +- com.juma.server:crm-common:jar:3.8.2-SNAPSHOT:compile
+[INFO] |  |  \- com.juma.server:auth-common:jar:2.5.3-SNAPSHOT:compile
+[INFO] |  \- com.juma.dd:dataInterface-domain:jar:1.0-SNAPSHOT:compile
+[INFO] +- com.juma.server:tgm-service:jar:5.4.0-SNAPSHOT:compile
+[INFO] |  +- com.juma.server:tgm-domain:jar:5.4.0-SNAPSHOT:compile
+[INFO] |  |  \- com.juma.server:tgm-common:jar:5.4.0-SNAPSHOT:compile
+[INFO] |  |     +- org.apache.httpcomponents:httpclient:jar:4.3:compile
+[INFO] |  |     |  \- org.apache.httpcomponents:httpcore:jar:4.3:compile
+[INFO] |  |     +- org.apache.httpcomponents:httpmime:jar:4.3:compile
+[INFO] |  |     +- org.apache.httpcomponents:fluent-hc:jar:4.3.1:compile
+[INFO] |  |     \- org.mybatis.generator:mybatis-generator-core:jar:1.3.7:compile
+[INFO] |  \- org.mybatis.generator:mybatis-generator-my-plugin:jar:1.1.1:compile
+[INFO] |     +- org.mybatis.generator:mybatis-generator-maven-plugin:jar:1.3.5:compile
+[INFO] |     |  \- org.apache.maven:maven-plugin-api:jar:3.3.9:compile
+[INFO] |     |     +- org.apache.maven:maven-model:jar:3.3.9:compile
+[INFO] |     |     |  \- org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
+[INFO] |     |     +- org.apache.maven:maven-artifact:jar:3.3.9:compile
+[INFO] |     |     \- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.2:compile
+[INFO] |     |        +- javax.enterprise:cdi-api:jar:1.0:compile
+[INFO] |     |        |  \- javax.annotation:jsr250-api:jar:1.0:compile
+[INFO] |     |        +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.2:compile
+[INFO] |     |        +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO] |     |        \- org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+[INFO] |     \- mysql:mysql-connector-java:jar:5.1.21:compile
+[INFO] +- com.juma.server:vms-service:jar:1.1.0-SNAPSHOT:compile
+[INFO] |  +- com.juma.server:vms-domain:jar:1.1.0-SNAPSHOT:compile
+[INFO] |  |  \- com.juma.server:vms-common:jar:1.1.0-SNAPSHOT:compile
+[INFO] |  +- com.juma.server:tsl-domain:jar:2.9.0-SNAPSHOT:compile
+[INFO] |  |  +- com.juma.server:tsl-common:jar:2.9.0-SNAPSHOT:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |  |  \- org.hibernate:hibernate-validator:jar:5.4.1.Final:compile
+[INFO] |  |     \- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+[INFO] |  \- com.juma.server:message-common:jar:2.1.1-SNAPSHOT:compile
+[INFO] +- com.juma.server:oms-service:jar:1.0.1:compile
+[INFO] |  \- com.juma.server:oms-domain:jar:1.0.1:compile
+[INFO] |     \- com.juma.server:oms-common:jar:1.0.1:compile
+[INFO] +- com.juma.server:fms-service:jar:2.1.0-SNAPSHOT:compile
+[INFO] |  +- com.juma.server:fms-domain:jar:2.1.0-SNAPSHOT:compile
+[INFO] |  |  \- com.juma.server:fms-common:jar:2.1.0-SNAPSHOT:compile
+[INFO] |  +- com.juma.server:workflow-domain:jar:1.1.0-SNAPSHOT:compile
+[INFO] |  \- com.juma.server:workflow-common:jar:1.1.0-SNAPSHOT:compile
+[INFO] +- com.juma.server:workflow-service:jar:1.1.0-SNAPSHOT:compile
+[INFO] +- com.juma.server:vm-service:jar:2.2.5-SNAPSHOT:compile
+[INFO] |  \- com.juma.server:vm-domain:jar:2.2.5-SNAPSHOT:compile
+[INFO] |     +- com.juma.server:vm-common:jar:2.2.5-SNAPSHOT:compile
+[INFO] |     |  \- joda-time:joda-time:jar:2.9.7:compile
+[INFO] |     \- org.projectlombok:lombok:jar:1.16.18:compile
+[INFO] +- com.juma.server:cms-service:jar:2.0.0:compile
+[INFO] |  +- org.aspectj:aspectjweaver:jar:1.7.4:compile
+[INFO] |  \- com.juma.server:cms-domain:jar:2.0.0:compile
+[INFO] |     \- com.juma.server:cms-common:jar:2.0.0:compile
+[INFO] |        +- net.glxn:qrgen:jar:1.4:compile
+[INFO] |        |  \- com.google.zxing:javase:jar:3.0.0:compile
+[INFO] |        |     \- com.google.zxing:core:jar:3.0.0:compile
+[INFO] |        \- com.thoughtworks.xstream:xstream:jar:1.4.9:compile
+[INFO] |           +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |           \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- me.about:me-poi:jar:1.1.0:compile
+[INFO] |  +- org.mybatis:mybatis:jar:3.4.0:compile
+[INFO] |  +- com.alibaba:druid:jar:1.1.9:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] +- com.juma.server:auth-service:jar:2.9.0-SNAPSHOT:compile
+[INFO] |  \- com.juma.server:auth-domain:jar:2.9.0-SNAPSHOT:compile
+[INFO] |     \- com.juma.elasticsearch:juma-elasticsearch-rest:jar:1.0.1:compile
+[INFO] |        +- io.searchbox:jest:jar:2.4.0:compile
+[INFO] |        |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.4:compile
+[INFO] |        |  \- org.apache.httpcomponents:httpasyncclient:jar:4.1.1:compile
+[INFO] |        \- org.springframework.data:spring-data-elasticsearch:jar:2.1.0.RELEASE:compile
+[INFO] |           \- org.elasticsearch:elasticsearch:jar:2.4.0:compile
+[INFO] |              +- org.apache.lucene:lucene-core:jar:5.5.2:compile
+[INFO] |              +- org.apache.lucene:lucene-backward-codecs:jar:5.5.2:compile
+[INFO] |              +- org.apache.lucene:lucene-analyzers-common:jar:5.5.2:compile
+[INFO] |              +- org.apache.lucene:lucene-queries:jar:5.5.2:compile
+[INFO] |              +- org.apache.lucene:lucene-memory:jar:5.5.2:compile
+[INFO] |              +- org.apache.lucene:lucene-highlighter:jar:5.5.2:compile
+[INFO] |              +- org.apache.lucene:lucene-queryparser:jar:5.5.2:compile
+[INFO] |              |  \- org.apache.lucene:lucene-sandbox:jar:5.5.2:compile
+[INFO] |              +- org.apache.lucene:lucene-suggest:jar:5.5.2:compile
+[INFO] |              |  \- org.apache.lucene:lucene-misc:jar:5.5.2:compile
+[INFO] |              +- org.apache.lucene:lucene-join:jar:5.5.2:compile
+[INFO] |              |  \- org.apache.lucene:lucene-grouping:jar:5.5.2:compile
+[INFO] |              +- org.apache.lucene:lucene-spatial:jar:5.5.2:compile
+[INFO] |              |  +- org.apache.lucene:lucene-spatial3d:jar:5.5.2:compile
+[INFO] |              |  \- com.spatial4j:spatial4j:jar:0.5:compile
+[INFO] |              +- org.elasticsearch:securesm:jar:1.0:compile
+[INFO] |              +- com.carrotsearch:hppc:jar:0.7.1:compile
+[INFO] |              +- org.joda:joda-convert:jar:1.2:compile
+[INFO] |              +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.1:compile
+[INFO] |              +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.1:compile
+[INFO] |              +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.1:compile
+[INFO] |              +- io.netty:netty:jar:3.10.6.Final:compile
+[INFO] |              +- com.ning:compress-lzf:jar:1.0.2:compile
+[INFO] |              +- com.tdunning:t-digest:jar:3.0:compile
+[INFO] |              +- org.hdrhistogram:HdrHistogram:jar:2.1.6:compile
+[INFO] |              +- commons-cli:commons-cli:jar:1.3.1:compile
+[INFO] |              \- com.twitter:jsr166e:jar:1.1.0:compile
+[INFO] +- com.github.vencent-lu:giants-decorator-core:jar:1.3.0:compile
+[INFO] |  +- com.github.vencent-lu:giants-xmlmapping:jar:1.0.0:compile
+[INFO] |  |  \- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+[INFO] |  \- commons-collections:commons-collections:jar:3.2.1:compile
+[INFO] +- com.github.vencent-lu:giants-common:jar:1.0.8:compile
+[INFO] |  \- oro:oro:jar:2.0.8:compile
+[INFO] +- com.github.vencent-lu:giants-analyse:jar:1.0.3:compile
+[INFO] |  \- com.github.vencent-lu:giants-web:jar:1.0.5:compile
+[INFO] +- com.github.vencent-lu:giants-dal:jar:1.0.0:compile
+[INFO] |  +- org.springframework:spring-core:jar:4.2.5.RELEASE:compile
+[INFO] |  +- org.springframework:spring-jdbc:jar:4.2.5.RELEASE:compile
+[INFO] |  \- org.springframework:spring-tx:jar:4.2.5.RELEASE:compile
+[INFO] +- com.github.vencent-lu:giants-web-springmvc:jar:1.1.1:compile
+[INFO] |  +- org.springframework:spring-beans:jar:4.2.5.RELEASE:compile
+[INFO] |  +- org.springframework:spring-context:jar:4.2.5.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-aop:jar:4.2.5.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-expression:jar:4.2.5.RELEASE:compile
+[INFO] |  +- org.springframework:spring-web:jar:4.2.5.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:4.2.5.RELEASE:compile
+[INFO] +- com.github.vencent-lu:giants-decorator-spring:jar:1.3.0:compile
+[INFO] |  \- com.github.vencent-lu:giants-decorator-html:jar:1.3.0:compile
+[INFO] +- com.github.vencent-lu:giants-cache-redis:jar:1.0.5-Beta-4:compile
+[INFO] |  +- com.github.vencent-lu:giants-cache-core:jar:1.0.5-Beta-4:compile
+[INFO] |  +- com.caucho:hessian:jar:4.0.33:compile
+[INFO] |  +- redis.clients:jedis:jar:2.8.1:compile
+[INFO] |  |  \- org.apache.commons:commons-pool2:jar:2.4.2:compile
+[INFO] |  \- org.springframework.data:spring-data-redis:jar:1.7.4.RELEASE:compile
+[INFO] |     +- org.springframework.data:spring-data-keyvalue:jar:1.1.4.RELEASE:compile
+[INFO] |     |  \- org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE:compile
+[INFO] |     \- org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime
+[INFO] +- com.github.vencent-lu:giants-dubbo:jar:1.0.1:compile
+[INFO] |  +- io.zipkin.java:zipkin:jar:2.0.0:compile
+[INFO] |  +- io.zipkin.brave:brave-core:jar:4.0.6:compile
+[INFO] |  +- io.zipkin.brave:brave-http:jar:4.0.6:compile
+[INFO] |  +- io.zipkin.reporter:zipkin-reporter:jar:1.1.0:compile
+[INFO] |  \- io.zipkin.reporter:zipkin-sender-okhttp3:jar:1.1.0:compile
+[INFO] +- ch.qos.logback:logback-classic:jar:1.1.7:compile
+[INFO] +- javax.mail:mail:jar:1.5.0-b01:compile
+[INFO] |  \- javax.activation:activation:jar:1.1:compile
+[INFO] +- net.sf.jxls:jxls-core:jar:1.0.6:compile
+[INFO] |  +- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] |  +- commons-digester:commons-digester:jar:2.0:compile
+[INFO] |  \- org.apache.commons:commons-jexl:jar:2.0.1:compile
+[INFO] +- org.apache.poi:poi:jar:3.15:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.10:compile
+[INFO] |  \- org.apache.commons:commons-collections4:jar:4.1:compile
+[INFO] +- org.apache.poi:poi-ooxml:jar:3.15:compile
+[INFO] |  \- com.github.virtuald:curvesapi:jar:1.04:compile
+[INFO] +- org.apache.poi:poi-ooxml-schemas:jar:3.15:compile
+[INFO] |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+[INFO] |     \- stax:stax-api:jar:1.0.1:compile
+[INFO] +- org.springmodules:spring-modules-validation:jar:0.8a:compile
+[INFO] |  +- commons-validator:commons-validator:jar:1.3.0:compile
+[INFO] |  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO] |  \- antlr:antlr:jar:2.7.6:compile
+[INFO] +- cglib:cglib:jar:2.2.2:compile
+[INFO] |  \- asm:asm:jar:3.3.1:compile
+[INFO] +- javax.servlet:javax.servlet-api:jar:3.0.1:provided
+[INFO] +- com.alibaba:fastjson:jar:1.2.39:compile
+[INFO] +- com.alibaba:dubbo:jar:2.5.3:compile
+[INFO] |  +- org.javassist:javassist:jar:3.15.0-GA:compile
+[INFO] |  \- org.jboss.netty:netty:jar:3.2.5.Final:compile
+[INFO] +- com.101tec:zkclient:jar:0.6:compile
+[INFO] |  +- log4j:log4j:jar:1.2.15:compile
+[INFO] |  \- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+[INFO] |     \- jline:jline:jar:0.9.94:compile
+[INFO] +- commons-fileupload:commons-fileupload:jar:1.3.2:compile
+[INFO] |  \- commons-io:commons-io:jar:2.2:compile
+[INFO] +- io.swagger:swagger-annotations:jar:1.5.18:compile
+[INFO] +- com.github.vencent-lu:giants-swagger:jar:1.0.1:compile
+[INFO] |  +- io.springfox:springfox-swagger2:jar:2.6.1:compile
+[INFO] |  |  +- io.swagger:swagger-models:jar:1.5.10:compile
+[INFO] |  |  +- io.springfox:springfox-spi:jar:2.6.1:compile
+[INFO] |  |  |  \- io.springfox:springfox-core:jar:2.6.1:compile
+[INFO] |  |  +- io.springfox:springfox-schema:jar:2.6.1:compile
+[INFO] |  |  +- io.springfox:springfox-swagger-common:jar:2.6.1:compile
+[INFO] |  |  +- io.springfox:springfox-spring-web:jar:2.6.1:compile
+[INFO] |  |  +- com.fasterxml:classmate:jar:1.3.1:compile
+[INFO] |  |  +- org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile
+[INFO] |  |  \- org.mapstruct:mapstruct:jar:1.0.0.Final:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.5:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.4.5:compile
+[INFO] |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.5:compile
+[INFO] +- me.about:trace:jar:0.1.0:compile
+[INFO] |  +- com.google.guava:guava:jar:19.0:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:2.0.3:compile
+[INFO] |  +- org.yaml:snakeyaml:jar:1.18:compile
+[INFO] |  \- com.squareup.okhttp3:okhttp:jar:3.6.0:compile
+[INFO] |     \- com.squareup.okio:okio:jar:1.11.0:compile
+[INFO] +- org.springframework:spring-test:jar:4.2.5.RELEASE:compile
+[INFO] +- junit:junit:jar:4.12:compile
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] \- com.ctrip.framework.apollo:apollo-client:jar:1.1.1-SNAPSHOT:compile
+[INFO]    +- com.ctrip.framework.apollo:apollo-core:jar:1.1.1-SNAPSHOT:compile
+[INFO]    |  \- com.google.code.gson:gson:jar:2.8.0:compile
+[INFO]    \- com.google.inject:guice:jar:4.1.0:compile
+[INFO]       +- javax.inject:javax.inject:jar:1:compile
+[INFO]       \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.507 s
+[INFO] Finished at: 2019-05-14T19:13:56+08:00
+[INFO] Final Memory: 28M/263M
+[INFO] ------------------------------------------------------------------------

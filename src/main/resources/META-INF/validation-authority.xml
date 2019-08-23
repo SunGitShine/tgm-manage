@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE form-validation PUBLIC "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.1//EN" "http://jakarta.apache.org/commons/dtds/validator_1_1.dtd">
+
+<form-validation>
+     <formset>
+        
+        <form name="userLoginVo">
+        	<field property="loginName" depends="required">
+        		<arg0 key="user.loginName" />
+        	</field>
+        	<field property="password" depends="required">
+        		<arg0 key="user.password" />
+        	</field>
+        </form>
+        
+        <form name="userInfoVo">
+        	<field property="loginName" depends="required">
+        		<arg0 key="user.loginName" />
+        	</field>
+        	<field property="password" depends="required">
+        		<arg0 key="user.password" />
+        	</field>
+        	<field property="stationId" depends="required">
+        		<arg0 key="user.station" />
+        	</field>
+        </form>
+        
+        <form name="editUserInfoVo">
+        	<field property="userId" depends="required">
+        		<arg0 key="user.userId" />
+        	</field>
+        	<field property="loginName" depends="required">
+        		<arg0 key="user.loginName" />
+        	</field>
+        	<field property="stationId" depends="required">
+        		<arg0 key="user.station" />
+        	</field>
+        </form>
+                
+        <form name="roleVo">
+        	<field property="roleKey" depends="required">
+        		<arg0 key="role.roleKey" />
+        	</field>
+        	<field property="roleName" depends="required">
+        		<arg0 key="role.roleName" />
+        	</field>
+        </form>
+                
+        <form name="changePasswordVo">
+        	<field property="password" depends="required">
+        		<arg0 key="user.password" />
+        	</field>
+        	<field property="newPassword" depends="required">
+        		<arg0 key="user.newPassword" />
+        	</field>
+        	<field property="confirmPassword" depends="required">
+        		<arg0 key="user.confirmPassword" />
+        	</field>
+        </form>
+        <!-- 运费规则 -->
+        <form name="freightVo">
+        	<field property="lowestFreight" depends="required">
+        		<arg0 key="truckTypeFreight.lowestFreight" />
+        	</field>
+        	<field property="beyondUnitPrice" depends="required">
+        		<arg0 key="truckTypeFreight.beyondUnitPrice" />
+        	</field>
+        	<field property="lowestMileage" depends="required">
+        		<arg0 key="truckTypeFreight.lowestMileage" />
+        	</field>
+        	<field property="pricePerDay" depends="required">
+        		<arg0 key="truckTypeFreight.pricePerDay" />
+        	</field>
+        </form>
+        <!-- 货主 -->
+        <form name="truckCustomerInfoVo">
+        	<field property="contactPhone" depends="required">
+        		<arg0 key="tgm.contactPhone" />
+        	</field>
+        	<field property="nickname" depends="required">
+        		<arg0 key="truckCustomer.nickname" />
+        	</field>
+        	<field property="identityCardNo" depends="required">
+        		<arg0 key="tgm.identityCardNo" />
+        	</field>
+        </form>
+        <!-- 货主升级或经纪人编辑 -->
+        <form name="truckCustomerVo">
+        	<field property="contactPhone" depends="required">
+        		<arg0 key="tgm.contactPhone" />
+        	</field>
+        	<field property="nickname" depends="required">
+        		<arg0 key="truckCustomer.nickname" />
+        	</field>
+        	<field property="identityCardNo" depends="required">
+        		<arg0 key="tgm.identityCardNo" />
+        	</field>
+        </form>
+        <!-- 司机 -->
+        <form name="driverVo">
+        	<field property="contactPhone" depends="required">
+        		<arg0 key="tgm.contactPhone" />
+        	</field>
+        	<field property="nickname" depends="required">
+        		<arg0 key="driverVo.nickname" />
+        	</field>
+        	<field property="detailAddress" depends="required">
+        		<arg0 key="tgm.detailAddress" />
+        	</field>
+        </form>
+		 <!-- 司机停工 -->
+		 <form name="driverStopWorkFrom">
+			 <field property="driverId" depends="required">
+				 <arg0 key="driver.driverId" />
+				 <msg name="required" key="errors.required"/>
+			 </field>
+			 <field property="status" depends="required">
+				 <arg0 key="driver.status" />
+				 <msg name="required" key="errors.required"/>
+			 </field>
+			 <field property="workStopReason" depends="required">
+				 <arg0 key="driver.workStopReason" />
+				 <msg name="required" key="errors.required"/>
+			 </field>
+			 <field property="workStopStartTime" depends="required">
+				 <arg0 key="driver.workStopStartTime" />
+				 <msg name="required" key="errors.required"/>
+			 </field>
+			 <field property="workStopEndTime" depends="required">
+				 <arg0 key="driver.workStopEndTime" />
+				 <msg name="required" key="errors.required"/>
+			 </field>
+			 <field property="remark" depends="maxlength">
+				 <arg0 key="driver.workStopRemark" />
+				 <arg1 key="${var:maxlength}" />
+				 <var>
+					 <var-name>maxlength</var-name>
+					 <var-value>99</var-value>
+				 </var>
+				 <msg name="maxlength" key="errors.maxlength"/>
+			 </field>
+		 </form>
+
+        <!-- 货车 -->
+        <form name="truckVo">
+        	<field property="plateNumber" depends="required">
+        		<arg0 key="truck.plateNumber" />
+        	</field>
+        </form>
+        <!-- 车队 -->
+        <form name="truckFleetVo">
+        	<field property="protocolName" depends="required">
+        		<arg0 key="truckFleet.protocolName" />
+        	</field>
+        </form>
+        <!-- 大客户 -->
+        <form name="customerInfoVo">
+        	<field property="customerName" depends="required">
+        		<arg0 key="customerInfo.customerName" />
+        	</field>
+        	<field property="linkMan" depends="required">
+        		<arg0 key="customerInfo.linkMan" />
+        	</field>
+        	<field property="linkTel" depends="required">
+        		<arg0 key="customerInfo.linkTel" />
+        	</field>
+        </form>
+        <form name="cityManage">
+        	<field property="provinceName" depends="required">
+        		<arg0 key="cityManageVo.provinceName" />
+        	</field>
+        </form>
+        
+  </formset>
+</form-validation>
